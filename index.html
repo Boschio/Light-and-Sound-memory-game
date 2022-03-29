@@ -18,26 +18,25 @@
     <h1>
       The Patterns Memory Game
     </h1>
-    <p>
-      Watch, listen and repeat the pattern. Each round adds an extra prompt, so be sure to keep up and win!
-    </p>
+    <h3>
+      Watch, listen and repeat the pattern. Each round is slightly faster and adds an extra prompt, so be sure to keep up and win!
+    </h3>
     
     <div id="difficultySelect">
-      <p>
-      Select a difficulty: 
-      </p>
+      <h4>
+      <b>Difficulty: </b>
+      </h4>
       <button id="easyBtn" class="difBtn" onclick="setDifficulty(1)">Easy</button>
       <button id="medBtn" class="difBtn" onclick="setDifficulty(2)">Medium</button>
       <button id="hardBtn" class="difBtn" onclick="setDifficulty(3)">Hard</button>
     </div>
     <div id="gameModifier">
-      <p>
+      <h4>
       Game Modifier: 
-      </p>
+      </h4>
       <button id="lightsBtn" class="modBtn" onclick="lightsOffMode()">Lights On</button>
       <button id="speedBtn" class="modBtn" onclick="speedMode()">Normal Speed</button>
     </div>
-
     
     <button id="startBtn" onclick="startGame()">
       Start
@@ -47,10 +46,10 @@
     </button>
     
     <div id="gameButtonArea" class="grid-container">
-      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
-      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
-      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
-      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"><img src="https://cdn.glitch.global/d5d03b93-8a1b-41a4-8a26-f79200f23c3c/up-arrow.png?v=1648494140705"/></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"><img src="https://cdn.glitch.global/d5d03b93-8a1b-41a4-8a26-f79200f23c3c/right-arrow.png?v=1648494140683"/></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"><img src="https://cdn.glitch.global/d5d03b93-8a1b-41a4-8a26-f79200f23c3c/left-arrow.png?v=1648494140683"/></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"><img src="https://cdn.glitch.global/d5d03b93-8a1b-41a4-8a26-f79200f23c3c/down-arrow.png?v=1648494140683"/></button>
     </div>
     
     
