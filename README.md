@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-[My video walkthrough](http://g.recordit.co/KlH2hT9zKl.gif)
+![My video walkthrough](Patterns-walkthrough.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
