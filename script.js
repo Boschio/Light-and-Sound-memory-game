@@ -170,6 +170,7 @@ function setDifficulty(btn) {
     document.getElementById("hardBtn").classList.remove("pressed");
     console.log("easy")
     difficulty = "easy";
+    pattern = [];
     for (var i=0;i<8;i++) {
       pattern[i] = Math.floor(Math.random() * 4) + 1;
     }
@@ -180,6 +181,7 @@ function setDifficulty(btn) {
     document.getElementById("hardBtn").classList.remove("pressed");
     console.log("medium")
     difficulty = "medium";
+    pattern = [];
     for (var i=0;i<12;i++) {
       pattern[i] = Math.floor(Math.random() * 4) + 1;
     }
@@ -190,6 +192,7 @@ function setDifficulty(btn) {
     document.getElementById("hardBtn").classList.add("pressed");
     console.log("hard")
     difficulty = "hard";
+    pattern = [];
     for (var i=0;i<16;i++) {
       pattern[i] = Math.floor(Math.random() * 4) + 1;
     }
